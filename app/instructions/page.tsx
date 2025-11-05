@@ -67,79 +67,79 @@ export default function Instructions() {
               </div>
             </div>
 
-            <div className="flex gap-4 p-6 bg-gradient-to-br from-blue-50 to-white rounded-xl border-2 border-blue-200">
+            <div className="flex gap-3 sm:gap-4 p-4 sm:p-6 bg-gradient-to-br from-blue-50 to-white rounded-xl border-2 border-blue-200">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#1565C0] to-[#1E88E5] rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-[#1565C0] to-[#1E88E5] rounded-full flex items-center justify-center text-white font-bold text-lg sm:text-xl shadow-lg">
                   2
                 </div>
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 text-lg mb-2">Son 60 preguntas con frases de actividades</h3>
-                <p className="text-gray-700 mb-3">
+                <h3 className="font-bold text-gray-900 text-base sm:text-lg mb-2">Son 60 preguntas con frases de actividades</h3>
+                <p className="text-sm sm:text-base text-gray-700 mb-3">
                   Verás frases como <span className="font-semibold">"Reparar equipos electrónicos"</span> o <span className="font-semibold">"Enseñar conceptos complejos"</span>.
                 </p>
-                <p className="text-gray-700">
+                <p className="text-sm sm:text-base text-gray-700">
                   Piensa: <span className="italic">"¿Qué tanto me gustaría realizar esta actividad?"</span>
                 </p>
               </div>
             </div>
 
-            <div className="flex gap-4 p-6 bg-gradient-to-br from-blue-50 to-white rounded-xl border-2 border-blue-200">
+            <div className="flex gap-3 sm:gap-4 p-4 sm:p-6 bg-gradient-to-br from-blue-50 to-white rounded-xl border-2 border-blue-200">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#1565C0] to-[#1E88E5] rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-[#1565C0] to-[#1E88E5] rounded-full flex items-center justify-center text-white font-bold text-lg sm:text-xl shadow-lg">
                   3
                 </div>
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 text-lg mb-2">Usa la escala del 1 al 5</h3>
+                <h3 className="font-bold text-gray-900 text-base sm:text-lg mb-2">Usa la escala del 1 al 5</h3>
                 <div className="space-y-2 mt-3">
-                  <div className="flex items-center gap-3">
-                    <span className="font-bold text-[#1565C0] text-lg w-6">1</span>
-                    <span className="text-gray-700">= Totalmente en desacuerdo / No me gusta nada</span>
+                  <div className="flex items-center gap-2 sm:gap-3">
+                    <span className="font-bold text-[#1565C0] text-base sm:text-lg w-5 sm:w-6">1</span>
+                    <span className="text-xs sm:text-sm text-gray-700">= Totalmente en desacuerdo / No me gusta nada</span>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <span className="font-bold text-[#1565C0] text-lg w-6">2</span>
-                    <span className="text-gray-700">= En desacuerdo / No me gusta mucho</span>
+                  <div className="flex items-center gap-2 sm:gap-3">
+                    <span className="font-bold text-[#1565C0] text-base sm:text-lg w-5 sm:w-6">2</span>
+                    <span className="text-xs sm:text-sm text-gray-700">= En desacuerdo / No me gusta mucho</span>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <span className="font-bold text-[#1565C0] text-lg w-6">3</span>
-                    <span className="text-gray-700">= Neutral / Me es indiferente</span>
+                  <div className="flex items-center gap-2 sm:gap-3">
+                    <span className="font-bold text-[#1565C0] text-base sm:text-lg w-5 sm:w-6">3</span>
+                    <span className="text-xs sm:text-sm text-gray-700">= Neutral / Me es indiferente</span>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <span className="font-bold text-[#1565C0] text-lg w-6">4</span>
-                    <span className="text-gray-700">= De acuerdo / Me gusta</span>
+                  <div className="flex items-center gap-2 sm:gap-3">
+                    <span className="font-bold text-[#1565C0] text-base sm:text-lg w-5 sm:w-6">4</span>
+                    <span className="text-xs sm:text-sm text-gray-700">= De acuerdo / Me gusta</span>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <span className="font-bold text-[#1565C0] text-lg w-6">5</span>
-                    <span className="text-gray-700">= Totalmente de acuerdo / Me gusta mucho</span>
+                  <div className="flex items-center gap-2 sm:gap-3">
+                    <span className="font-bold text-[#1565C0] text-base sm:text-lg w-5 sm:w-6">5</span>
+                    <span className="text-xs sm:text-sm text-gray-700">= Totalmente de acuerdo / Me gusta mucho</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="flex gap-4 p-6 bg-gradient-to-br from-blue-50 to-white rounded-xl border-2 border-blue-200">
+            <div className="flex gap-3 sm:gap-4 p-4 sm:p-6 bg-gradient-to-br from-blue-50 to-white rounded-xl border-2 border-blue-200">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#1565C0] to-[#1E88E5] rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-[#1565C0] to-[#1E88E5] rounded-full flex items-center justify-center text-white font-bold text-lg sm:text-xl shadow-lg">
                   4
                 </div>
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 text-lg mb-2">Tómate tu tiempo</h3>
-                <p className="text-gray-700">
+                <h3 className="font-bold text-gray-900 text-base sm:text-lg mb-2">Tómate tu tiempo</h3>
+                <p className="text-sm sm:text-base text-gray-700">
                   El test toma aproximadamente <span className="font-semibold">10-15 minutos</span>. No hay límite de tiempo, pero responde con tu primera impresión.
                 </p>
               </div>
             </div>
 
-            <div className="flex gap-4 p-6 bg-gradient-to-br from-amber-50 to-white rounded-xl border-2 border-amber-300">
+            <div className="flex gap-3 sm:gap-4 p-4 sm:p-6 bg-gradient-to-br from-amber-50 to-white rounded-xl border-2 border-amber-300">
               <div className="flex-shrink-0">
-                <svg className="w-12 h-12 text-amber-600" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-10 h-10 sm:w-12 sm:h-12 text-amber-600" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
                 </svg>
               </div>
               <div>
-                <h3 className="font-bold text-amber-900 text-lg mb-2">Importante</h3>
-                <p className="text-amber-800">
+                <h3 className="font-bold text-amber-900 text-base sm:text-lg mb-2">Importante</h3>
+                <p className="text-sm sm:text-base text-amber-800">
                   El test incluye preguntas de validación para asegurar la calidad de tus resultados. Responde todas las preguntas con atención.
                 </p>
               </div>
@@ -150,10 +150,10 @@ export default function Instructions() {
           <div className="text-center">
             <button
               onClick={handleStart}
-              className="inline-flex items-center gap-3 px-10 py-4 bg-gradient-to-r from-[#1565C0] to-[#1E88E5] hover:from-[#0D47A1] hover:to-[#1565C0] text-white font-bold text-lg rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+              className="inline-flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto px-8 sm:px-10 py-3 sm:py-4 bg-gradient-to-r from-[#1565C0] to-[#1E88E5] hover:from-[#0D47A1] hover:to-[#1565C0] text-white font-bold text-base sm:text-lg rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
             >
               Comenzar Test
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </button>
