@@ -80,9 +80,9 @@ export default function Register() {
             <Image
               src="/logo-udhi.svg"
               alt="UDHI - Universidad para el Desarrollo Humano e Integral"
-              width={280}
-              height={84}
-              className="h-auto w-full max-w-[280px] drop-shadow-md"
+              width={360}
+              height={63}
+              className="h-auto w-full max-w-[360px] drop-shadow-md"
               priority
             />
           </div>

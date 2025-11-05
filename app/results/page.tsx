@@ -186,9 +186,9 @@ export default function Results() {
             <Image
               src="/logo-udhi.svg"
               alt="UDHI - Universidad para el Desarrollo Humano e Integral"
-              width={240}
-              height={72}
-              className="h-auto w-full max-w-[240px]"
+              width={280}
+              height={49}
+              className="h-auto w-full max-w-[280px]"
               priority
             />
             {emailSent && (

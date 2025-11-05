@@ -87,9 +87,9 @@ export default function Test() {
             <Image
               src="/logo-udhi.svg"
               alt="UDHI - Universidad para el Desarrollo Humano e Integral"
-              width={200}
-              height={60}
-              className="h-auto w-full max-w-[200px]"
+              width={240}
+              height={42}
+              className="h-auto w-full max-w-[240px]"
             />
             <div className="flex items-center gap-6">
               <div className="text-right hidden sm:block">

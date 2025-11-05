@@ -18,10 +18,10 @@ export default function Home() {
         <div className="mb-8">
           <Image
             src="/logo-udhi.svg"
-            alt="UDHI Logo"
-            width={200}
-            height={60}
-            className="h-16 w-auto mx-auto drop-shadow-md"
+            alt="UDHI - Universidad para el Desarrollo Humano e Integral"
+            width={280}
+            height={49}
+            className="h-auto w-full max-w-[280px] mx-auto drop-shadow-md"
             priority
           />
         </div>
