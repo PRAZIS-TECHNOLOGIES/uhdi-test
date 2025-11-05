@@ -117,8 +117,8 @@ export default function Test() {
       </div>
 
       {/* Question Content */}
-      <div className="max-w-5xl mx-auto px-6 lg:px-8 py-10 animate-fade-in">
-        <div className="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 lg:p-12 hover:shadow-xl transition-shadow duration-300">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 animate-fade-in">
+        <div className="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-4 sm:p-6 lg:p-12 hover:shadow-xl transition-shadow duration-300">
           {/* Control Question Badge */}
           {question.isControl && (
             <div className="mb-6">
@@ -129,7 +129,7 @@ export default function Test() {
           )}
 
           {/* Question */}
-          <h2 className="text-2xl font-semibold text-gray-900 mb-10 leading-relaxed">
+          <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-gray-900 mb-6 sm:mb-10 leading-relaxed">
             {question.text}
           </h2>
 
@@ -146,24 +146,24 @@ export default function Test() {
             </div>
 
             {/* Options as buttons */}
-            <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 border-2 border-gray-200">
-              <div className="grid grid-cols-5 gap-3">
+            <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-3 sm:p-6 border-2 border-gray-200">
+              <div className="grid grid-cols-5 gap-2 sm:gap-3">
                 {likertOptions.map((option) => (
                   <button
                     key={option.value}
                     onClick={() => handleAnswer(option.value)}
-                    className={`relative group flex flex-col items-center justify-center p-6 rounded-xl border-2 transition-all duration-300 ${
+                    className={`relative group flex flex-col items-center justify-center p-3 sm:p-6 rounded-lg sm:rounded-xl border-2 transition-all duration-300 ${
                       selectedOption === option.value
                         ? 'border-[#1565C0] bg-gradient-to-br from-[#1565C0] to-[#1E88E5] shadow-xl scale-105 transform'
                         : 'border-gray-300 bg-white hover:border-[#1565C0] hover:bg-blue-50 hover:scale-102'
                     }`}
                   >
-                    <div className={`text-3xl font-bold mb-2 ${
+                    <div className={`text-2xl sm:text-3xl font-bold mb-1 sm:mb-2 ${
                       selectedOption === option.value ? 'text-white' : 'text-gray-900'
                     }`}>
                       {option.value}
                     </div>
-                    <div className={`text-xs font-medium text-center ${
+                    <div className={`text-[10px] sm:text-xs font-medium text-center ${
                       selectedOption === option.value ? 'text-white' : 'text-gray-600'
                     }`}>
                       {option.shortLabel}

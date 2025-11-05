@@ -39,29 +39,29 @@ export default function Instructions() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-4xl mx-auto px-6 lg:px-8 py-12 lg:py-16">
-        <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 p-8 lg:p-12 animate-fade-in">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
+        <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 p-4 sm:p-8 lg:p-12 animate-fade-in">
           {/* Greeting */}
-          <div className="mb-8">
-            <h1 className="text-4xl font-bold bg-gradient-to-r from-[#0D47A1] to-[#1565C0] bg-clip-text text-transparent mb-4">
+          <div className="mb-6 sm:mb-8">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-[#0D47A1] to-[#1565C0] bg-clip-text text-transparent mb-3 sm:mb-4">
               ¡Hola, {userName}!
             </h1>
-            <p className="text-xl text-gray-700">
+            <p className="text-lg sm:text-xl text-gray-700">
               Estás por comenzar el Test Vocacional UDHI
             </p>
           </div>
 
           {/* Instructions */}
-          <div className="space-y-6 mb-10">
-            <div className="flex gap-4 p-6 bg-gradient-to-br from-blue-50 to-white rounded-xl border-2 border-blue-200">
+          <div className="space-y-4 sm:space-y-6 mb-8 sm:mb-10">
+            <div className="flex gap-3 sm:gap-4 p-4 sm:p-6 bg-gradient-to-br from-blue-50 to-white rounded-xl border-2 border-blue-200">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#1565C0] to-[#1E88E5] rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-[#1565C0] to-[#1E88E5] rounded-full flex items-center justify-center text-white font-bold text-lg sm:text-xl shadow-lg">
                   1
                 </div>
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 text-lg mb-2">Responde con honestidad</h3>
-                <p className="text-gray-700">
+                <h3 className="font-bold text-gray-900 text-base sm:text-lg mb-2">Responde con honestidad</h3>
+                <p className="text-sm sm:text-base text-gray-700">
                   No hay respuestas correctas o incorrectas. Lo importante es que refleje tus verdaderos intereses y preferencias.
                 </p>
               </div>

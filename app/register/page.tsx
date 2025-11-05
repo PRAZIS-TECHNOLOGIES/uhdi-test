@@ -73,32 +73,32 @@ export default function Register() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 flex">
       {/* Left Panel - Form */}
-      <div className="w-full lg:w-1/2 flex items-center justify-center p-8 lg:p-16 animate-fade-in">
+      <div className="w-full lg:w-1/2 flex items-center justify-center p-4 sm:p-8 lg:p-16 animate-fade-in">
         <div className="w-full max-w-md">
           {/* Logo */}
-          <div className="mb-12">
+          <div className="mb-8 sm:mb-12">
             <Image
               src="/logo-udhi.svg"
               alt="UDHI - Universidad para el Desarrollo Humano e Integral"
               width={360}
               height={63}
-              className="h-auto w-full max-w-[360px] drop-shadow-md"
+              className="h-auto w-full max-w-[280px] sm:max-w-[360px] drop-shadow-md"
               priority
             />
           </div>
 
           {/* Header */}
-          <div className="mb-10">
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-[#0D47A1] to-[#1565C0] bg-clip-text text-transparent mb-4">
+          <div className="mb-8 sm:mb-10">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-[#0D47A1] to-[#1565C0] bg-clip-text text-transparent mb-3 sm:mb-4">
               Test Vocacional
             </h1>
-            <p className="text-xl text-gray-600">
+            <p className="text-lg sm:text-xl text-gray-600">
               Descubre tu camino profesional ideal
             </p>
           </div>
 
           {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
             {/* Nombre */}
             <div>
               <label htmlFor="nombre" className="block text-sm font-medium text-gray-700 mb-2">
@@ -190,7 +190,7 @@ export default function Register() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className={`w-full bg-gradient-to-r from-[#1565C0] to-[#1E88E5] hover:from-[#0D47A1] hover:to-[#1565C0] text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 transform ${
+              className={`w-full bg-gradient-to-r from-[#1565C0] to-[#1E88E5] hover:from-[#0D47A1] hover:to-[#1565C0] text-white font-bold py-3 sm:py-4 px-6 rounded-xl transition-all duration-300 transform text-base sm:text-lg ${
                 isSubmitting ? 'opacity-50 cursor-not-allowed' : 'hover:shadow-2xl hover:scale-[1.02] active:scale-[0.98]'
               }`}
             >
@@ -220,8 +220,8 @@ export default function Register() {
         </div>
       </div>
 
-      {/* Right Panel - Info */}
-      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-blue-50 via-blue-100 to-indigo-50 items-center justify-center p-16">
+      {/* Right Panel - Info - Only on Desktop */}
+      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-blue-50 via-blue-100 to-indigo-50 items-center justify-center p-12 xl:p-16">
         <div className="max-w-lg animate-slide-up">
           <div className="mb-8">
             <div className="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-md mb-6 border border-gray-200">
