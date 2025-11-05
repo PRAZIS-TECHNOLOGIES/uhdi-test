@@ -80,9 +80,10 @@ export default function Register() {
             <Image
               src="/logo-udhi.svg"
               alt="UDHI Logo"
-              width={180}
-              height={54}
-              className="h-14 w-auto drop-shadow-sm"
+              width={220}
+              height={66}
+              className="h-16 w-auto drop-shadow-md"
+              priority
             />
           </div>
 

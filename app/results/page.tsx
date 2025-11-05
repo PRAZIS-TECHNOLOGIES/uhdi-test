@@ -181,14 +181,15 @@ export default function Results() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50">
       {/* Header */}
       <div className="border-b-2 border-gray-200 bg-white sticky top-0 z-10 shadow-md">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-5">
           <div className="flex items-center justify-between">
             <Image
               src="/logo-udhi.svg"
               alt="UDHI Logo"
-              width={160}
-              height={48}
-              className="h-12 w-auto"
+              width={200}
+              height={60}
+              className="h-14 w-auto"
+              priority
             />
             {emailSent && (
               <div className="flex items-center gap-2 text-sm text-green-700">
@@ -213,10 +214,10 @@ export default function Results() {
               Evaluación Completada
             </div>
             <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-to-r from-[#0D47A1] to-[#1565C0] bg-clip-text text-transparent mb-6">
-              Tu Perfil Vocacional
+              Tu Perfil Vocacional UDHI
             </h1>
             <p className="text-xl text-gray-700 font-medium mb-8">
-              Basado en el modelo RIASEC de Holland
+              Basado en el modelo RIASEC de Holland • Test Vocacional UDHI
             </p>
 
             {/* Holland Code Display */}
