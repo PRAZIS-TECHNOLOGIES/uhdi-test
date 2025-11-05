@@ -89,11 +89,6 @@ export default function Register() {
 
           {/* Header */}
           <div className="mb-10">
-            <div className="inline-block mb-4">
-              <span className="px-4 py-2 bg-gradient-to-r from-[#1565C0] to-[#1E88E5] text-white text-sm font-semibold rounded-full shadow-lg">
-                ✨ Versión Científica
-              </span>
-            </div>
             <h1 className="text-5xl font-bold bg-gradient-to-r from-[#0D47A1] to-[#1565C0] bg-clip-text text-transparent mb-4">
               Test Vocacional
             </h1>
