@@ -185,10 +185,10 @@ export default function Results() {
           <div className="flex items-center justify-between">
             <Image
               src="/logo-udhi.svg"
-              alt="UDHI Logo"
-              width={200}
-              height={60}
-              className="h-14 w-auto"
+              alt="UDHI - Universidad para el Desarrollo Humano e Integral"
+              width={240}
+              height={72}
+              className="h-auto w-full max-w-[240px]"
               priority
             />
             {emailSent && (

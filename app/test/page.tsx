@@ -86,10 +86,10 @@ export default function Test() {
           <div className="flex items-center justify-between">
             <Image
               src="/logo-udhi.svg"
-              alt="UDHI Logo"
-              width={140}
-              height={42}
-              className="h-10 w-auto"
+              alt="UDHI - Universidad para el Desarrollo Humano e Integral"
+              width={200}
+              height={60}
+              className="h-auto w-full max-w-[200px]"
             />
             <div className="flex items-center gap-6">
               <div className="text-right hidden sm:block">

@@ -58,7 +58,7 @@ export default function Register() {
 
     setTimeout(() => {
       setIsSubmitting(false);
-      router.push('/test');
+      router.push('/instructions');
     }, 500);
   };
 
@@ -79,10 +79,10 @@ export default function Register() {
           <div className="mb-12">
             <Image
               src="/logo-udhi.svg"
-              alt="UDHI Logo"
-              width={220}
-              height={66}
-              className="h-16 w-auto drop-shadow-md"
+              alt="UDHI - Universidad para el Desarrollo Humano e Integral"
+              width={280}
+              height={84}
+              className="h-auto w-full max-w-[280px] drop-shadow-md"
               priority
             />
           </div>
