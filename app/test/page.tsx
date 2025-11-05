@@ -119,18 +119,7 @@ export default function Test() {
       {/* Question Content */}
       <div className="max-w-5xl mx-auto px-6 lg:px-8 py-10 animate-fade-in">
         <div className="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 lg:p-12 hover:shadow-xl transition-shadow duration-300">
-          {/* Dimension Badge */}
-          {!question.isControl && (
-            <div className="mb-6">
-              <span className="inline-flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-700 rounded-full text-xs font-semibold uppercase tracking-wide shadow-sm">
-                {question.dimension === 'activity' && 'Actividades'}
-                {question.dimension === 'competency' && 'Competencias'}
-                {question.dimension === 'occupation' && 'Ocupaciones'}
-                {question.dimension === 'value' && 'Valores'}
-              </span>
-            </div>
-          )}
-
+          {/* Control Question Badge */}
           {question.isControl && (
             <div className="mb-6">
               <span className="inline-flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-[#1565C0] to-[#1E88E5] text-white rounded-full text-xs font-semibold uppercase tracking-wide shadow-md">
